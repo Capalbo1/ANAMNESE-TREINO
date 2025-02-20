@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Azul claro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #097ddb, #b2ebf2); /* Gradiente de azul claro */
+}
+/* Adicionando um gradiente ao fundo */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}   
+
+h1 {
+    text-align: center;
+    color: #0077b6; /* Azul escuro */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h1::before {
+    content: "🏋️‍♂️"; /* Emoji de academia */
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #023e8a; /* Azul mais escuro */
+}
+
+input, textarea, select {
+    width: 180%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #90e0ef; /* Azul claro */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #023e8a; /* Azul mais escuro */
+    background-color: #f0f8ff; /* Azul bem claro */
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #0077b6; /* Azul escuro */
+    outline: none;
+}
+
+button {
+    background-color: #0077b6; /* Azul escuro */
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #023e8a; /* Azul mais escuro */
+}
